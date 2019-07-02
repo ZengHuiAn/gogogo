@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+service Transceiver {
+    rpc Transmission(SendRequest) returns (SendResponse) {}
+}
+
+message SendRequest {
+    int32 messageId = 1;
+    MessageType type = 2;
+    bytes body = 3;
+}
+
+enum MessageType {
+    Request = 0;
+    Response = 1;
+    Notify = 2;
+}
+
+message SendResponse {
+    int32 messageId = 1;
+    MessageType type = 2;
+    bytes body = 3;
+}
