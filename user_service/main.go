@@ -4,7 +4,6 @@ import (
 	"context"
 	"fmt"
 	"github.com/micro/go-micro"
-	transport "github.com/micro/go-plugins/transport"
 	proto "github.com/snake/test/greeter"
 )
 
@@ -20,15 +19,20 @@ func (g *Transceiver) Transmission(ctx context.Context, req *proto.SendRequest, 
 	return nil
 }
 
+func Auth() error {
+	//
+
+	return nil
+}
+
 func main() {
 	// Create a new service. Optionally include some options here.
 	service := micro.NewService(
 		micro.Name("tcp"),
 	)
-	transport.
-		// Init will parse the command line flags.
-		service.Init()
 
+	// Init will parse the command line flags.
+	service.Init()
 	// Register handler
 	_ = proto.RegisterTransceiverHandler(service.Server(), new(Transceiver))
 
