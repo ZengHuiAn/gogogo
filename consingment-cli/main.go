@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
-	pb "github.com/snake/test/consignment-service/proto"
+	pb "github.com/snake/gogogo/consignment-service/proto"
 	"google.golang.org/grpc"
 	"io/ioutil"
 	"log"
