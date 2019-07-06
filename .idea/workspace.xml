@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89946c72-88ce-4f69-a2d0-8c379a52d1df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/consingment-cli/consignment.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consingment-cli/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/makefile" afterDir="false" />
+    <list default="true" id="18c67b8f-ab33-43c9-b604-390e9ef3dcb1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consignment-service/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/consignment-service/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,47 +15,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/runServer.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/consignment-service/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="338">
+              <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
               <folding>
-                <element signature="e#14#167#0" expanded="true" />
+                <element signature="e#14#185#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consignment-cli/main.go">
+        <entry file="file://$PROJECT_DIR$/go.mod">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/makefile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consignment-service/makefile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            <state relative-caret-position="330">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="GOROOT" path="/usr/local/Cellar/go/1.12.5/libexec" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Dial</find>
+      <find>CreateConsignment</find>
+      <find>repo</find>
+      <find>IRepository</find>
+      <find>network</find>
+      <find>DefaultInfoFile</find>
+    </findStrings>
+  </component>
+  <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -65,27 +73,32 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/consignment-service/main.go" />
+        <option value="$PROJECT_DIR$/greeter.proto" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/greeter/Makefile" />
+        <option value="$PROJECT_DIR$/greeter/build.cmd" />
+        <option value="$PROJECT_DIR$/framework/serialization/amf/amf_test.go" />
+        <option value="$PROJECT_DIR$/framework/serialization/amf/amf.go" />
+        <option value="$PROJECT_DIR$/greeter/greeter.proto" />
+        <option value="$PROJECT_DIR$/client_service/main.go" />
+        <option value="$PROJECT_DIR$/user_service/main.go" />
+        <option value="$PROJECT_DIR$/consignment-service/proto/consignment/consignment.proto" />
+        <option value="$PROJECT_DIR$/buildProto.sh" />
+        <option value="$PROJECT_DIR$/consignment-service/buildProto.sh" />
+        <option value="$PROJECT_DIR$/consignment-service/makefile" />
+        <option value="$PROJECT_DIR$/consingment-cli/cli.go" />
+        <option value="$PROJECT_DIR$/consingment-cli/consignment.json" />
+        <option value="$PROJECT_DIR$/consignment-service/proto/consignment.proto" />
         <option value="$PROJECT_DIR$/consingment-cli/main.go" />
+        <option value="$PROJECT_DIR$/runServer.sh" />
         <option value="$PROJECT_DIR$/consignment-service/main.go" />
-        <option value="$PROJECT_DIR$/makefile" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/gogogo.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
-    <option name="width" value="2560" />
-    <option name="height" value="1344" />
+    <option name="width" value="1940" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -97,8 +110,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="gogogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gogogo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gogogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gogogo" type="462c0819:PsiDirectoryNode" />
+              <item name="consignment-service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -162,10 +180,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1344" extended-state="0" />
+    <frame x="0" y="23" width="1940" height="1100" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2547847" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21223404" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -178,8 +196,8 @@
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49960127" visible="true" weight="0.3293919" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5003987" side_tool="true" weight="0.3293919" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.6455224" visible="true" weight="0.36276597" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.354067" side_tool="true" weight="0.31925675" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -197,20 +215,54 @@
     <proxy>https://goproxy.io</proxy>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/consignment-service/main.go">
+    <entry file="file://$PROJECT_DIR$/greeter/greeter.pb.go" />
+    <entry file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/micro/go-micro@v1.5.0/transport/options.go" />
+    <entry file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/micro/go-micro@v1.5.0/transport/transport.go" />
+    <entry file="file://$PROJECT_DIR$/greeter/greeter.proto" />
+    <entry file="file://$PROJECT_DIR$/greeter/build.cmd" />
+    <entry file="file://$PROJECT_DIR$/greeter/greeter.micro.go" />
+    <entry file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/micro/go-micro@v1.5.0/options.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="93">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/micro/go-micro@v1.5.0/micro.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_service/main.go" />
+    <entry file="file://$PROJECT_DIR$/client_service/main.go" />
+    <entry file="file://$PROJECT_DIR$/framework/serialization/amf/amf.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="93" column="12" lean-forward="true" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
           <folding>
-            <element signature="e#14#167#0" expanded="true" />
+            <element signature="e#13#78#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consignment-cli/main.go">
+    <entry file="file://$PROJECT_DIR$/framework/serialization/amf/amf_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="279">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="e#13#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consignment-service/proto/consignment.micro.go" />
+    <entry file="file:///usr/local/Cellar/go/1.12.5/libexec/src/net/dial.go" />
+    <entry file="file://$PROJECT_DIR$/consingment-cli/consignment.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -221,10 +273,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/makefile">
+    <entry file="file://$PROJECT_DIR$/consignment-service/buildProto.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        <state relative-caret-position="93">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consignment-service/proto/consignment.pb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="398" column="42" lean-forward="true" selection-start-line="398" selection-start-column="42" selection-end-line="398" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consignment-service/proto/consignment.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consingment-cli/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="66" column="41" lean-forward="true" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
+          <folding>
+            <element signature="e#14#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runServer.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go.mod">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consignment-service/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+          <folding>
+            <element signature="e#14#185#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
