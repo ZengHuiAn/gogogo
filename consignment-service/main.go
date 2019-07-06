@@ -3,6 +3,7 @@ package main
 import (
 	// 导如 protoc 自动生成的包
 	"context"
+	"github.com/hashicorp/consul/api"
 	pb "github.com/snake/test/consignment-service/proto"
 	"google.golang.org/grpc"
 	"log"
