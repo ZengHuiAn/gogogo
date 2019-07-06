@@ -13,7 +13,7 @@ import (
 
 const (
 	ADDRESS         = "localhost:50051"
-	DefaultInfoFile = "consingment-cli/consignment.json"
+	DefaultInfoFile = "consignment-cli/consignment.json"
 )
 
 // 读取 consignment.json 中记录的货物信息

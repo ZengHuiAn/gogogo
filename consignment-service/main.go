@@ -3,7 +3,8 @@ package main
 import (
 	// 导如 protoc 自动生成的包
 	"context"
-	"github.com/hashicorp/consul/api"
+	"errors"
+	"fmt"
 	pb "github.com/snake/test/consignment-service/proto"
 	"google.golang.org/grpc"
 	"log"
@@ -36,7 +37,22 @@ type Repository struct {
 	consignments []*pb.Consignment
 }
 
+func CheckRepoConsignments(consignments []*pb.Consignment, consignment *pb.Consignment) bool {
+
+	for _, num := range consignments {
+		if num.Id == consignment.Id {
+			return true
+		}
+	}
+	return false
+}
+
 func (repo *Repository) Create(consignment *pb.Consignment) (*pb.Consignment, error) {
+	if CheckRepoConsignments(repo.consignments, consignment) {
+		fmt.Println("Contains item")
+		return nil, errors.New("already contains")
+	}
+	fmt.Println("新来一批货物:", consignment)
 	repo.consignments = append(repo.consignments, consignment)
 	return consignment, nil
 }
