@@ -7,3 +7,9 @@ micro:
     	--micro_out=./proto \
     	--go_out=./proto \
     	./proto/*.proto
+build:
+	set GOARCH=amd64
+	set GOOS=linux
+	go build main.go
+run:
+	./consignment-service

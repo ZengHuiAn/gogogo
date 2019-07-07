@@ -1,0 +1,8 @@
+version: '3'
+services:
+  consignment-service:
+    build: ..
+    volumes:
+      - ./consignment-service:/app
+    ports:
+      - "50001:50001"

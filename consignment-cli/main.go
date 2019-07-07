@@ -4,8 +4,10 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
+	"fmt"
+	microClient "github.com/micro/go-micro/client"
+	"github.com/micro/go-micro/cmd"
 	pb "github.com/snake/test/consignment-service/proto"
-	"google.golang.org/grpc"
 	"io/ioutil"
 	"log"
 	"os"
@@ -32,14 +34,11 @@ func parseFile(fileName string) (*pb.Consignment, error) {
 
 func main() {
 	// 连接到 gRPC 服务器
-	conn, err := grpc.Dial(ADDRESS, grpc.WithInsecure())
-	if err != nil {
-		log.Fatalf("connect error: %v", err)
-	}
+	_ = cmd.Init()
+	// 创建微服务的客户端，简化了手动 Dial 连接服务端的步骤
+	client := pb.NewShippingService("go.micro.srv.consignment", microClient.DefaultClient)
+	fmt.Println("链接成功")
 	defer conn.Close()
-
-	// 初始化 gRPC 客户端
-	client := pb.NewShippingServiceClient(conn)
 
 	// 在命令行中指定新的货物信息 json 文件
 	infoFile := DefaultInfoFile
